@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  h2{
+      color: white;
+      text-align: center;
+      margin-top: 60px;
+      font-family: 'Festive', cursive;
+      font-family: 'Zen Tokyo Zoo', cursive;
+  }
+  p{
+      color: white;
+      padding: 10px;
+      font-family: 'Jura', sans-serif;
+      text-align: center;
+  }
+  /* ########## section one ############ */
+  /* ######### logo ############ */
+  /* .row-one{
+      height: 100vh;
+  } */
+ .col-one{
+     background-color: #000000; 
+     height: 100vh;
+ }
+ .col-two{
+   background-color: #607D8B;
+   height: 100vh;
+ }
+ .link-list{
+     margin-top: 150px;
+ }
+ .link-list a{
+     text-decoration: none;
+     display: block;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     color: white; 
+ }
+ .link-list a:hover{
+     background-color: #616161;
+ }
+ /* ######### logo ############ */
+ /* ########### about me ############ */
+ .my-img{
+     margin-top: 40px;
+ }
+.my-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+ /* ########### about me ############ */
+ /* ########## section one ############ */
+
+ /* ########## section two ############ */
+ /* .row-two{
+     height: 100vh;
+ } */
+ .col-three{
+     background-color: #F1F1F1;
+     height: 100vh;
+ }
+ .col-four{
+     background-color:#1B2A4E;
+     height: 100vh;
+ }
+ .img-size{
+     width: 150px;
+ }
+ .myTable{
+     margin-top: 60px;
+    
+ }
+ /* ########## section two ############ */
+
+ /* ########## section three ############ */
+ /* .row-three{
+     height: 100vh;
+ } */
+ .col-five{
+   background-color: #616161;
+   height: 100vh;
+ }
+ .paragraph{
+     margin-top: 100px !important;
+     padding: 5px !important;
+ }
+ .col-six{
+   background-color: #42BA96;
+   height: 100vh;
+ }
+ .contact-form{
+     background-color: white;
+     padding: 30px;
+     margin: 25px;
+     font-family: 'Jura', sans-serif;
+ }
+ /* ########## section three ############ */
+
+ /* ########### footer section ############ */
+ .footer{
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    font-size: 30px;
+ }
+ .icon{
+     padding: 7px;
+ }
+ /* ########### footer section ############ */
+ @media only screen and (max-width: 380px) {
+    .my-img img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+  }
